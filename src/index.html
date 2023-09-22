@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body class="w-full min-h-screen flex items-center justify-center font-custom_hanken">
+
+  <main class="lg:w-auto h-full flex lg:flex-row  justify-center shadow-custom rounded-[30px] bg-white">
+
+    <header class="w-[365px] h-[512px] border rounded-[35px] flex flex-col justify-evenly  items-center bg-gradient-to-b from-gradient-lsb from-0% to-gradient-lrb to-100%">
+
+      <h2 class="pt-[20px] pb-[20px] text-[1.5rem] font-bold text-Neutral-ll">Your Result</h2>
+
+        <div class="w-[180px] h-[180px]  rounded-[50%] flex flex-col items-center justify-center m-0 p-0 bg-gradient-to-b from-gradient-vb  to-gradient-pb">
+        <p class="text-white text-[5rem] font-extrabold">76</p>
+        <p class="text-Neutral-ll text-lg">of 100</p>
+        </div>
+
+        <div class="flex items-center flex-col justify-center mt-[20px] m-0 p-0">
+          <p class="text-[1.8rem] text-white font-bold">Great</p>
+          <p class="text-center text-[1.05rem] text-Neutral-ll pt-[10px] pb-[10px] pl-[55px] pr-[55px]">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+
+      </header>
+      <div class="w-[365px] h-[512px] p-[30px] rounded-[35px] flex flex-col justify-evenly  ">
+
+        <h3 class="text-[1.5rem]  font-bold text-Neutral-dgb mb-[20px]">Summary</h3>
+        
+        <!-- Info -->
+        <div class="flex flex-col gap-y-[20px]">
+          <!-- Item -->
+          <div class="flex justify-between p-[15px] rounded-[5px] text-lred bg-rb text-[18px]">
+            <div class="flex items-center gap-x-[10px]">
+              <img src="../assets/images/icon-reaction.svg" alt="">
+              <p>Reaction</p>
+            </div>
+            <div class="flex font-bold text-[1.05rem] gap-x-[6px] text-dgb">
+              <p >80</p>
+              <span class="text-sdb-50">/</span>
+              <p class="text-sdb-50">100</p>
+            </div>
+          </div>
+          <!-- Item -->
+
+          <!-- Item -->
+          <div class="flex justify-between p-[15px] rounded-[5px] bg-oyb text-oy text-[18px]">
+
+            <div class="flex items-center gap-x-[10px]">
+              <img src="../assets/images/icon-memory.svg" alt="">
+              <p>Memory</p>
+            </div>
+            <div class="flex font-bold text-[1.05rem] gap-x-[6px] text-dgb">
+              <p>92</p>
+              <span class="text-sdb-50">/</span>
+              <p class="text-sdb-50">100</p>
+            </div>
+
+          </div>
+          <!-- Item -->
+
+          <!-- Item -->
+          <div class="flex justify-between p-[15px] rounded-[5px] bg-gtb text-gt text-[18px]">
+
+            <div class="flex items-center gap-x-[10px]">
+              <img src="../assets/images/icon-verbal.svg" alt="">
+              <p>Verbal</p>
+            </div>
+
+            <div class="flex font-bold text-[1.05rem] gap-x-[6px] text-dgb">
+              <p>61</p>
+              <span class="text-sdb-50">/</span>
+              <p class="text-sdb-50">100</p>
+            </div>
+
+          </div>
+          <!-- Item -->
+
+          <!-- Item -->
+          <div class="flex justify-between p-[15px] rounded-[5px] bg-cbb text-cb text-[18px]">
+
+            <div class="flex items-center gap-x-[10px]">
+              <img src="../assets/images/icon-visual.svg" alt="">
+              <p>Visual</p>
+            </div>
+
+            <div class="flex font-bold text-[1.05rem] gap-x-[6px] text-dgb">
+              <p>72</p>
+              <span class="text-sdb-50">/</span>
+              <p class="text-sdb-50">100</p>
+            </div>
+
+          </div>
+          <!-- Item -->
+
+          
+        </div>
+        <!-- Info -->
+        <div class="w-full mt-[20px]">
+          <button type="button" class="border-none w-full h-[60px] font-bold rounded-[40px] text-white bg-dgb text-[18px] hover:bg-gradient-to-b from-gradient-lsb from-0% to-gradient-lrb to-100%  hover:text-white">Continue</button>
+        </div>
+      </div>
+  </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
